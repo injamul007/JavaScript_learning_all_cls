@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object</title>
+</head>
+<body>
+  
+
+
+  <script>
+
+      // object (dot notation)
+    // let product = {
+    //   company: 'Mango',
+    //   'item-name': 'T-shirt',
+    //   price: 681,
+    // };
+    // console.log(product);
+    // console.log(product.company);
+    // console.log(product.item_name);
+    // console.log(product.price);
+    // product.company = 'Banana';
+    // product.item_name = 'Genji';
+    // console.log(product.company);
+    // console.log(product.item_name);
+
+
+    // object (Bracket Notation)
+    // let propertyName = 'item-name';
+    // console.log(product [propertyName]);
+    // console.log(product.item_name);
+    // console.log(product.price);
+
+
+    // delete product.company;
+    // delete product['company'];
+    // console.log(product);
+
+    // inside object
+    // let product = {
+    //   company: 'Mango',
+    //   'item-name': 'T-shirt',
+    //   price: 681,
+    //   displayPrice: function() {
+    //     console.log(`Price of the product is ${this.price}`)
+    //   }
+    // };
+
+    // product.displayPrice();
+
+    // autoBoxing------------
+    // console.log('This is KG Coding'.length);
+    // console.log('This is KG Coding'.toUpperCase());
+    // console.log('This is KG Coding'.replace('KG','Knowledge Gate'));
+
+    // Object References---------
+    // let a = 5;
+    // let b = a;
+    // console.log(`a=${a}, b=${b}`);
+    
+    // let x = {num: 5,};
+    // let y = x;
+    // console.log(`x=${x.num}, y=${y.num}`);
+    // x.num = 8;
+    // console.log(`x=${x.num}, y=${y.num}`);
+
+    // let p = {pop: 'bdjobs',};
+    // let q = {pop: 'bdjobs',};
+
+    // console.log(p.pop == q.pop);
+
+
+    // // Object shortcuts---------(object destructuring)
+    // let product = {
+    //   company: 'Mango',
+    //   'item-name': 'T-shirt',
+    //   price: 681,
+    // };
+
+    // let {company} = product;
+    // console.log(company);
+
+
+    // Property shorthand----------
+
+
+
+    // Method shorthand----------
+    let product = {
+        company: 'Mango',
+        'item-name': 'T-shirt',
+        price: 681,
+        displayPrice() {
+          console.log(`Price of the product is ${this.price}`)
+        }
+      };
+  </script>
+</body>
+</html>
