@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Practice Exercise</title>
+</head>
+<body>
+
+  <h1 id="name_display"></h1>
+  <script>
+
+const myName = 'Injamul Hoque Tonmoy';
+console.log(myName);
+document.querySelector('#name_display').innerText = myName;
+
+
+
+const GSTpercentage = 18;
+
+let bagPrice = (15599 - (10/100 * 15599)) - 272;
+    let jeansPrice = (2499 - (41/100*2499)) - 29;
+let cartValue =  Math.round(( bagPrice+ jeansPrice + 25 +20) * (100 + GSTpercentage) / 100);
+console.log(cartValue);
+
+
+
+  </script>
+  
+</body>
+</html>
