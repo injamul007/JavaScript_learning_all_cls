@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+div {
+  height: 100px;
+  width: 450px;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  margin-bottom: 30px;
+}
