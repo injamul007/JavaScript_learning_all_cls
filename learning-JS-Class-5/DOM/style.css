@@ -1,0 +1,17 @@
+/* .box {
+  height: 100px;
+  width: 100px;
+  background-color: lightsalmon;
+  border: 2px solid black;
+} */
+
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
